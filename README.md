@@ -15,8 +15,10 @@
   <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="95%">
 </div>
 
-<!-- Compact Profile Section -->
-<div align="center">
+<!-- Profile Section with GIF -->
+<table align="center" width="90%">
+<tr>
+<td width="60%">
 
 ### 🚀 About Me
 
@@ -51,24 +53,32 @@ class GersonMigiro implements Developer {
 const developer = new GersonMigiro();
 ```
 
+</td>
+<td width="40%">
+
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="Coding Animation"/>
+  
+  <br><br>
+  
+  **🎯 Current Focus**
+  ```yaml
+  🔭 Building: Enterprise CRM
+  🌱 Learning: System Architecture
+  👯 Open to: Collaboration
+  💬 Ask me: ASP.NET, Angular
+  ⚡ Superpower: Telecom + Code
+  ```
 </div>
 
-<!-- Current Focus & Stats -->
+</td>
+</tr>
+</table>
+
+<!-- GitHub Stats -->
 <div align="center">
-  
-**🎯 Current Focus**
-```yaml
-🔭 Building: Enterprise CRM with Microservices
-🌱 Learning: Advanced System Architecture  
-👯 Open to: Enterprise project collaboration
-💬 Ask me: ASP.NET, Angular, System Design
-⚡ Superpower: Bridging telecom & software
-```
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gerry-Migiro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ABF0&icon_color=00ABF0&text_color=EDEDED&count_private=true" width="400" alt="GitHub Stats" />
-
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api?username=Gerry-Migiro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ABF0&icon_color=00ABF0&text_color=EDEDED&count_private=true" width="400" alt="GitHub Stats" />
 </div>
 
 <!-- Animated Tech Stack Section -->
