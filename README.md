@@ -1,24 +1,22 @@
 <!-- Animated Header with Wave Background -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Gerson%20Migiro&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Gerson%20Migiro&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Header" />
 </div>
 
 <!-- Dynamic Typing Animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00ABF0&center=true&vCenter=true&width=500&lines=Hey+There!+%F0%9F%91%8B+I'm+Gerson;Full-Stack+Developer;Telecom+Engineering+Student;Enterprise+Solutions+Architect;Microservices+Expert;Building+Scalable+Software+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00ABF0&center=true&vCenter=true&width=450&lines=Hey+There!+%F0%9F%91%8B+I'm+Gerson;Full-Stack+Developer;Telecom+Engineering+Student;Enterprise+Solutions+Architect;Microservices+Expert;Building+Scalable+Software+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
 <!-- Animated Divider -->
 <div align="center">
-  <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+  <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="95%">
 </div>
 
-<!-- Animated Profile Section -->
-<table align="center">
-<tr>
-<td width="50%">
+<!-- Compact Profile Section -->
+<div align="center">
 
 ### 🚀 About Me
 
@@ -28,17 +26,6 @@ interface Developer {
   role: string;
   university: string;
   location: string;
-  experience: string;
-  passion: string;
-}
-
-interface TechStack {
-  backend: string[];
-  frontend: string[];
-  database: string[];
-  architecture: string[];
-  tools: string[];
-  engineering: string[];
 }
 
 class GersonMigiro implements Developer {
@@ -46,56 +33,43 @@ class GersonMigiro implements Developer {
   role = "Full-Stack Developer & Telecom Engineer";
   university = "JKUAT - Telecom & Info Engineering";
   location = "Juja, Kenya 🇰🇪";
-  experience = "Enterprise Software Development";
-  passion = "Building scalable distributed systems";
 
-  techStack: TechStack = {
+  techStack = {
     backend: ["ASP.NET Core", "C#", "Entity Framework", "Node.js"],
-    frontend: ["Angular", "TypeScript", "HTML5", "CSS3", "JavaScript"],
+    frontend: ["Angular", "TypeScript", "HTML5", "CSS3"],
     database: ["SQL Server", "MySQL", "Database Design"],
-    architecture: ["Microservices", "API Gateway", "Distributed Systems"],
-    tools: ["Git", "Figma", "Telerik Reports", "Bootstrap"],
-    engineering: ["Software Engineering", "System Design", "Network Design"]
+    architecture: ["Microservices", "API Gateway", "Distributed Systems"]
   };
 
   getMotto(): string {
     return "Transforming ideas into enterprise solutions ⚡";
   }
 
-  isAvailableForWork(): boolean {
-    return true;
-  }
+  isAvailableForWork(): boolean { return true; }
 }
 
 const developer = new GersonMigiro();
 ```
 
-</td>
-<td width="50%">
-
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation"/>
-  
-  <br><br>
-  
-  **🎯 Current Focus**
-  ```yaml
-  🔭 Building: Enterprise CRM with Microservices
-  🌱 Learning: Advanced System Architecture
-  👯 Open to: Enterprise project collaboration
-  🤔 Exploring: AI integration in telecom
-  💬 Ask me: ASP.NET, Angular, System Design
-  ⚡ Superpower: Bridging telecom & software
-  ```
-  
-  <br>
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=Gerry-Migiro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ABF0&icon_color=00ABF0&text_color=EDEDED&count_private=true" width="100%" alt="GitHub Stats" />
 </div>
 
-</td>
-</tr>
-</table>
+<!-- Current Focus & Stats -->
+<div align="center">
+  
+**🎯 Current Focus**
+```yaml
+🔭 Building: Enterprise CRM with Microservices
+🌱 Learning: Advanced System Architecture  
+👯 Open to: Enterprise project collaboration
+💬 Ask me: ASP.NET, Angular, System Design
+⚡ Superpower: Bridging telecom & software
+```
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Gerry-Migiro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00ABF0&icon_color=00ABF0&text_color=EDEDED&count_private=true" width="400" alt="GitHub Stats" />
+
+</div>
 
 <!-- Animated Tech Stack Section -->
 <div align="center">
