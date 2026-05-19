@@ -168,9 +168,9 @@ const developer = new GersonMigiro();
 </div>
 
 <!-- Contribution Snake Animation -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
-</div>
+</div> -->
 
 <!-- Unique Projects Showcase -->
 <div align="center">
